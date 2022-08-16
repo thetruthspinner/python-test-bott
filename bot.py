@@ -10,7 +10,7 @@ BOT_TOKEN = '5462330526:AAHVnNoLYJBULOmDZehUZlP-j5DUybyfwLY'
 updater = Updater(BOT_TOKEN,use_context = True )
 
 def start(updater,context):
- updater.message.reply_text('hi i am google translater')
+ updater.message.reply_text('hi i am a python code testing bot')
  
 def echo(updater,context):
 # updater.message.reply_text('Working function')
